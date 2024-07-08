@@ -10,11 +10,11 @@ const FormInput = ({ label, ...otherProps }) => {
              otherProps.value.length ? 'shrink' : ''
            } form-input-label`}
          >
-           {label}
+           {label} 
          </label>
        )}  
      </div>
   );
 };
 
-export default FormInput;
+export default FormInput; 
