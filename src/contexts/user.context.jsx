@@ -26,4 +26,4 @@ useEffect(() => {
 }, []);
 
   return <UserContext.Provider value={value}>{children}</UserContext.Provider>
-};   
+};       
